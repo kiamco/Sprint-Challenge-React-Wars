@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/kiamco/Sprint-Challenge-React-Wars/issues"
   },
-  "homepage": "https://github.com/kiamco/Sprint-Challenge-React-Wars#readme"
+  "homepage": "https://github.com/kiamco/Sprint-Challenge-React-Wars#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.87.3"
+  }
 }
