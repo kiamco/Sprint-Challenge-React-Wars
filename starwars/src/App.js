@@ -10,7 +10,7 @@ const App = () => {
  useEffect(() => {
     Axios.get(`https://swapi.co/api/people/`)
       .then(response => {
-        console.log(response.data.results);
+        console.log(response);
         setPeople(response.data.results);
       })
       .catch(err => console.log(`App.js/ err: ${err}`))
