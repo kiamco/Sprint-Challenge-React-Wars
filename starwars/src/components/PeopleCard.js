@@ -3,7 +3,6 @@ import StarInfo from "./infoCard";
 import { Card } from "semantic-ui-react";
 import 'semantic-ui-css/semantic.min.css';
 function StarCard(props){
-
     return(
         <Card.Group>
             {
