@@ -142,12 +142,19 @@ table {
 
 .App {
     text-align: center;
-    background: url("./sw-bg.jpg") cover;
+    background: url("./sw-bg.jpg");
+    height: 100%;
+}
+
+div#root {
+    height: 100%;
+    ;
 }
 
 .Header {
     color: #443e3e;
     text-shadow: 1px 1px 5px #fff;
+    font-family: 'Saira Stencil One', cursive;
 }
 
 
