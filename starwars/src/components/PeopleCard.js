@@ -4,9 +4,11 @@ import { Card } from "semantic-ui-react";
 import 'semantic-ui-css/semantic.min.css';
 function StarCard(props){
     return(
-        <Card.Group>
+        <Card.Group itemsPerRow={3} centered>
             {
-                props.info.map(el => <StarInfo starName={el.name} height={el.height} mass={el.mass}/> )
+                props.info.map(el => <StarInfo starName={el.name} 
+                    height={el.height} 
+                    mass={el.mass}/> )
             }
         </Card.Group>
     );
