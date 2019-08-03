@@ -20,7 +20,6 @@ function Info(props){
                     <div class="ui right labeled button" role="button" tabindex="0">
                         <button onClick={()=> setLike(like + 1 )} class="ui red button">
                             <i aria-hidden="true" class="heart icon"></i>
-                            
                          </button>
                         <a class="ui red left pointing basic label">{like}</a>
                     </div>
